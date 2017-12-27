@@ -1,80 +1,90 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <LINK href="restaurantStyle.css" rel="stylesheet" type="text/css">
         <title>Contact Us</title>
+        <style>
+            form {
+                margin: 0 auto; 
+                width:400px;
+            }
+            #submit{
+                text-align: center;
+            }
+        </style>
     </head>
+    <h1 style="text-align:center">Doggo's Hot Dogs</h1>
     <header>
-        <h1 style="text-align:center">Doggo's Hot Dogs</h1>
         <hr>
-        <div>
-        <a href="homePage.html">Home    &nbsp;  </a> 
-        <a href="menu.html">Menu    &nbsp;  </a> 
-        <a href="contactRest.html">Contact Us&nbsp;</a> 
-        </div>
+        <a href="homePage.html">Home</a> 
+        <a href="menu.html">Menu</a> 
+        <a href="contactRest.html">Contact</a> 
         <hr>
     </header>
-        <body>
-                <form style="text-align: center" action="#" method ="post">
-                    <div>
-                        <label id="Name" for="name">Name: </label>
-                        <input id="name" name="name" type="text"/>
-                    </br>
-                    </div>
-                    </br>
-                    <div>
-                            <label id="EmailLable" for="Email">Email: </label>
-                            <input id="Email" name="Email" type="text"/>
-                    </br>    
-                    </div>
-                    </br>
-                    <div>
-                            <label id="PhoneLable" for="Phone">Phone Number: </label>
-                            <input id="Phone" name="Phone" type="text"/>    
-                    </br>
-                    </div>
-                    </br>
-                    <div>
-                        <label id="reason" for="Reason">Reason for Inquiry: </label>    
-                        <select name="Reason">
-                            <option value="Catering">Catering</option>
-                            <option value="Private Party">Private Party</option>
-                            <option value="Feedback">Feedback</option>
-                            <option value="Other">Other</option>
-                        </select>
-                    </br>
-                    </div>
-                    </br>    
-                    <div>
-                        <label id="additionalInfo" for="Additional Info">Additional Information: </label>
-                        <textarea id="AdditionalInfo" name="Additional Info"></textarea>            
-                    </br>
-                    </div>
-                    </br>                
-                    <div>
-                        <label id="pastCustomer" for="PastCustomer">Type of Liscense: </label>
-                        <input type = "radio" id="PastCustomer" name="PastCustomer" value="No"/>No   
-                        <input type = "radio" id="PastCustomer" name="PastCustomer" value="Yes"/>Yes 
-                    </br>
-                    </div>
-                    </br>
-                    <div>
-                        <label id="contactDay" for="ContactDay">Best Days to Contact You? </label>
-                        <input type="checkbox" id="ContactDay" name="M"/>M  
-                        <input type="checkbox" id="ContactDay" name="T"/>T  
-                        <input type="checkbox" id="ContactDay" name="W"/>W  
-                        <input type="checkbox" id="ContactDay" name="Th"/>Th  
-                        <input type="checkbox" id="ContactDay" name="F"/>F             
-                    </br>
-                    </div>
-                    </br>
-                    <div>
-                        <input type="submit" id="SubmitButton" value="Send Request"/>
-                    </div>
-            </form>
-        </body>
+    <body>
+            <form action="#" method ="post">
+                <div>
+                    <label id="Name" for="name">Name: </label>
+                    <input id="name" name="name" type="text"/>
+                </br>
+                </div>
+                </br>
+                <div>
+                    <label id="EmailLable" for="Email">Email: </label>
+                    <input id="Email" name="Email" type="text"/>
+                </br>    
+                </div>
+                </br>
+                <div>
+                        <label id="PhoneLable" for="Phone">Phone Number: </label>
+                        <input id="Phone" name="Phone" type="text"/>    
+                </br>
+                </div>
+                </br>
+                <div>
+                    <label id="reason" for="Reason">Reason for Inquiry: </label>    
+                    <select name="Reason">
+                        <option value="Catering">Catering</option>
+                        <option value="Private Party">Private Party</option>
+                        <option value="Feedback">Feedback</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </br>
+                </div>
+                </br>    
+                <div>
+                    <label id="additionalInfo" for="Additional Info">Additional Information: </label>
+                    <textarea id="AdditionalInfo" name="Additional Info"></textarea>            
+                </br>
+                </div>
+                </br>                
+                <div>
+                    <label id="pastCustomer" for="PastCustomer">Type of Liscense: </label>
+                    <input type = "radio" id="PastCustomer" name="PastCustomer" value="No"/>No   
+                    <input type = "radio" id="PastCustomer" name="PastCustomer" value="Yes"/>Yes 
+                </br>
+                </div>
+                </br>
+                <div>
+                    <label id="contactDay" for="ContactDay">Best Days to Contact You? </label>
+                    <input type="checkbox" id="ContactDay" name="M"/>M  
+                    <input type="checkbox" id="ContactDay" name="T"/>T  
+                    <input type="checkbox" id="ContactDay" name="W"/>W  
+                    <input type="checkbox" id="ContactDay" name="Th"/>Th  
+                    <input type="checkbox" id="ContactDay" name="F"/>F             
+                </br>
+                </div>
+                </br>
+                <div id="submit">
+                    <input type="submit" id="SubmitButton" value="Send Request"/>
+                </div>
+        </form>
+    </body>
     <footer>
         <hr>
-        <p style="text-align:center">1st Street, Minneapolis, MN, 55441</p>
-        <p style="text-align:center">555-555-5555</p>
+        <p> 
+        1st Street, Minneapolis, MN, 55441 <br>
+        555-555-5555
+        </p>
     </footer>
 </html>

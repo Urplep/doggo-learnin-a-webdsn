@@ -1,0 +1,9 @@
+header {
+    display: inline;
+    line-height: 30px;
+    word-spacing: 30px;
+}
+footer {
+    text-align: center;
+    line-height: 30px;
+}
