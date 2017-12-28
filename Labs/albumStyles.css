@@ -1,3 +1,18 @@
-#boxedText {
-    border: 3px red dashed;
+#albumCover {
+    background: url("images/dogAlbum.jpg") no-repeat center;
+    height: 500px;
+}
+img.center {
+    display: block;
+    margin: 0 auto;
+}
+li {
+    font-style: italic;
+}
+table {
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+th {
+    background-color: darkgray;
 }
