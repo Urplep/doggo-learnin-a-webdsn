@@ -1,3 +1,10 @@
+a {
+    text-decoration: none;
+}
+a:hover{
+    background-color: chartreuse;
+    text-decoration: underline
+}
 #albumCover {
     background: url("images/dogAlbum.jpg") no-repeat center;
     height: 500px;
@@ -9,10 +16,15 @@ img.center {
 li {
     font-style: italic;
 }
-table {
-    border: 3px solid black;
+table, th, td {
+    border: 1px solid black;
     border-collapse: collapse;
+  }
+tbody {
+    font-style: italic;
+    background-color: chartreuse;
 }
-th {
+thead {
+    font-style: none;
     background-color: darkgray;
 }
