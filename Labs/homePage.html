@@ -1,18 +1,69 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <LINK href="restaurantStyle.css" rel="stylesheet" type="text/css">
-        <title>Home Page</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <LINK href="restaurantStyle.css" rel="stylesheet" type="text/css">
+    <title>Home Page</title>
     </head>
     <h1 style="text-align:center">Doggo's Hot Dogs</h1>
-    <header>
-        <hr>
-        <a href="homePage.html">Home</a> 
-        <a href="menu.html">Menu</a> 
-        <a href="contactRest.html">Contact</a> 
-        <hr>
+    <header class="container">
+        <ul class="nav nav-tabs">
+            <li class="active"><a href="homePage.html"><span class="glyphicon glyphicon-home"></span></a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="contactRest.html">Contact</a></li>
+        </ul>
     </header>
     <body>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+                
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <div class="container">
+                            <div class="jumbotron">
+                                <h1>Big News!</h1>      
+                                <p>We will soon be celebrating the opening of a new Bloomington, MN Location!  Stay tuned!</p>
+                            </div>    
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="container">
+                                <div class="jumbotron">
+                                    <h1>New Seasonal Menu!</h1>      
+                                    <p>We're rolling out our seasonal menu, with special options for this season</p>
+                            </div>    
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="container">
+                            <div class="jumbotron">
+                                <h1>Drink of the Month</h1>      
+                                <p>The Drink of the Month is SG Special Brew</p>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
         <div id="homepage">
         <div style="text-align: center"><img src = "images\hot_doggo.png" style = width:400px height:150px/></div>
         <br>
@@ -32,7 +83,7 @@
         </p>
         </div>
     </body>
-    <footer>
+    <footer class="container">
         <hr>
         1st Street, Minneapolis, MN, 55441 <br>
         555-555-5555

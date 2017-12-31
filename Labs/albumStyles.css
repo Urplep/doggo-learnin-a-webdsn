@@ -7,11 +7,15 @@ a:hover{
 }
 #albumCover {
     background: url("images/dogAlbum.jpg") no-repeat center;
-    height: 500px;
-}
-img.center {
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
     display: block;
     margin: 0 auto;
+}
+ul{
+    display: inline-block;
+    text-align:left;
 }
 li {
     font-style: italic;
@@ -22,8 +26,14 @@ table, th, td {
   }
 tbody {
     font-style: italic;
-    background-color: chartreuse;
 }
+tbody tr:nth-child(even) {
+    background-color: LemonChiffon;
+  }
+  
+  tbody tr:nth-child(odd) {
+    background-color: LawnGreen;
+  }
 thead {
     font-style: none;
     background-color: darkgray;

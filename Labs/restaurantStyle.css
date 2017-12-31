@@ -1,3 +1,15 @@
+a:link {
+    color: navy;
+}
+a:active {
+    text-decoration: none;
+}
+a:hover {
+    font-weight: bold;
+}
+a:visited {
+    color:green;
+}
 .required{
     font-weight: bold;
 }
